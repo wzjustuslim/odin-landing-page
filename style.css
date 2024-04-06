@@ -39,9 +39,12 @@ header div nav a {
   max-width: 960px;
 }
 
+.hero-section, .cta-section {
+  height: calc(50vh - 56px);
+}
+
 .hero-section {
   background-color: #1F2937;
-  height: calc(100vh - 56px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,10 +80,50 @@ header div nav a {
   border-radius: 8px;
   color: #F9FAF8;
   padding: 8px 32px;
-
 }
 
 .hero-section div div img {
   align-self: flex-end;
   border-radius: 16px;
+}
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  box-sizing: border-box;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 48px 96px;
+  display: flex;
+  flex: auto;
+}
+
+.cta-section div div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start ;
+  flex-direction: column;
+  flex: auto;
+}
+
+.cta-header {
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.cta-text {
+  color: #E5E7EB;
+}
+
+.cta-btn {
+  background-color: #3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  color: #F9FAF8;
+  padding: 8px 32px;
+  margin: 0 auto;
 }
