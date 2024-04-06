@@ -8,3 +8,9 @@ header, footer {
   color: #E5E7EB;
   height: 56px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
