@@ -40,7 +40,7 @@ header div nav a {
 }
 
 .hero-section, .cta-section {
-  height: calc(50vh - 56px);
+  height: calc(60vh - 56px);
 }
 
 .hero-section {
@@ -126,4 +126,31 @@ header div nav a {
   color: #F9FAF8;
   padding: 8px 32px;
   margin: 0 auto;
+}
+
+.info-section, .quote-section {
+  height: 60vh;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-signoff {
+  text-align: end;
 }
