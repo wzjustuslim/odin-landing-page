@@ -11,3 +11,11 @@ header, footer {
   align-items: center;
   justify-content: center;
 }
+
+header div {
+  flex: auto;
+}
+
+.constraint {
+  max-width: 1140px;
+}
