@@ -139,6 +139,7 @@ header div nav a {
 }
 
 .info-container {
+  max-width: 960px;
   display: flex;
   align-items: center;
   flex-direction: column;
