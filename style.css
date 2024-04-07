@@ -130,19 +130,19 @@ header div nav a {
 
 .info-section, .quote-section {
   height: 60vh;
-}
-
-.info-section {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.info-container {
+.info-container, .quote-container {
   max-width: 960px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+}
+
+.info-container {
+  align-items: center;
 }
 
 .info-header {
@@ -175,23 +175,15 @@ header div nav a {
 
 .quote-section {
   background-color: #E5E7EB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.quote-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.quote-text {
+.quote-container p {
   color: #1F2937;
   font-size: 36px;
   font-style: italic;
   font-weight: 100;
 }
 
-.quote-signoff {
+.quote-container span {
   text-align: end;
 }
