@@ -98,16 +98,15 @@ header div nav a {
   background-color: #3882F6;
   border-radius: 8px;
   padding: 48px 96px;
+  max-width: 960px;
   display: flex;
-  flex: auto;
+  flex: 1;
 }
 
 .cta-section div div {
   display: flex;
-  justify-content: center;
-  align-items: flex-start ;
   flex-direction: column;
-  flex: auto;
+  flex: 1;
 }
 
 .cta-header {
@@ -119,13 +118,12 @@ header div nav a {
   color: #E5E7EB;
 }
 
-.cta-btn {
+.cta-container button {
   background-color: #3882F6;
   border: 2px solid #F9FAF8;
   border-radius: 8px;
   color: #F9FAF8;
   padding: 8px 32px;
-  margin: 0 auto;
 }
 
 .info-section, .quote-section {
