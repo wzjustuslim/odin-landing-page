@@ -51,30 +51,32 @@ header div nav a {
 
 }
 
-.hero-section div {
+.hero-container {
+  max-width: 960px;
   display: flex;
   flex: 1;
 }
 
-.hero-section div div {
+.hero-container div {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  flex: 1;
 }
 
-.hero-section div div span {
+.hero-container div span {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
 }
 
-.hero-section div div p {
+.hero-container div p {
   color: #E5E7EB;
   font-size: 18px;
 }
 
-.hero-section div div button {
+.hero-container div button {
   background-color: #3882F6;
   border: none;
   border-radius: 8px;
@@ -82,9 +84,10 @@ header div nav a {
   padding: 8px 32px;
 }
 
-.hero-section div div img {
-  align-self: flex-end;
+.hero-container img {
   border-radius: 16px;
+  margin-left: 32px;
+  flex: 1;
 }
 
 .cta-section {
